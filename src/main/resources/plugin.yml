@@ -1,0 +1,16 @@
+name: Kejax-Utils
+
+version: 0.3
+
+main: de.tomblo.main.Main
+
+commands:
+  nightvision:
+    description: Give yourself or other players nightvision using this command
+    aliases: nv
+
+  setspawn:
+    description: Set your spawn using this command
+
+  spawn:
+    description: Teleports you to the spawn

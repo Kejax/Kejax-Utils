@@ -1,0 +1,37 @@
+#Main Settings
+
+settings:
+  language: 'DE_de' #Language is not being implemented yet
+
+
+messages:
+
+  #!! NOT ALL IMPLEMENTED YET !!
+
+  #Nearly every message is able to be customized. They also support variables, but some variables are only supported by some messages
+  #All variables got an id for supported messages, if a message supports the variable is supported by the command, is also noticed before every command
+  #Here are some examples for abbreviation:
+
+  # PSM = PlayerSpecificMessage - Can be used in messages for events, that are triggered by a player
+  # PJM = PlayerJoinMessage - Can only be used in player-join-messages or player-leave-messages
+
+  #Variables:
+  #PSM - %player%
+  #
+  #
+  #
+  #ALL - %max_players%
+  #ALL - %player_count%
+
+
+  #Variables: PSM, PJM
+  autoJoinMessage: true
+  customJoinMessage: '%player% ist dem Spiel beigetreten (%player_count% / %max_players%)'
+
+  #Variables: PSM, PJM
+  autoLeaveMessage: true
+  customLeaveMessage: '%player% hat das Spiel verlassen (%player_count% / %max_players%)'
+
+  #Variables: PSM
+  autoNoPermissionMessage: true
+  noPermissionMessage: 'Dazu hast du keine Berechtigung %player%'

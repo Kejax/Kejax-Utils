@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Kejax Utils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Kejax_Utils_jar</output-path>
+    <root id="archive" name="Kejax Utils.jar">
+      <element id="module-output" name="Kejax Utils" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-1.16.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
